@@ -1,0 +1,298 @@
+/* Color Theme Swatches in Hex */
+.Pale-blue {
+  color: #e0e8ff;
+}
+.Bright-blue {
+  color: #3829e0;
+}
+.Very-pale-blue {
+  color: #f5f7ff;
+}
+.Desaturated-blue {
+  color: #7280a7;
+}
+.Dark blue {
+  color: #1f2f56;
+}
+.music {
+  color: hsla(222, 9%, 79%, 0.733);
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+p,
+figure {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+  background-color: #e0e8ff;
+}
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Makes images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+button {
+  font: inherit;
+}
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  width: 375px;
+  height: 667px;
+  line-height: 1.5;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  overflow: hidden;
+  background-color: #e0e8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  /* border: red 2px solid; */
+}
+.container {
+  background-color: hsl(220, 18%, 93%);
+  box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(203, 204, 207);
+  border-radius: 2em;
+  height: 56em;
+  max-width: 90%;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  /* border: blue solid 4px; */
+}
+.container img {
+  border-radius: 2em 2em 0em 0em;
+  -moz-border-radius: 2em 2em 0em 0em;
+  -ms-border-radius: 2em 2em 0em 0em;
+  -o-border-radius: 2em 2em 0em 0em;
+  -webkit-border-radius: 2em 2em 0em 0em;
+}
+
+div.order-summary {
+  border-radius: 0px 0px 15px 15px;
+  -webkit-border-radius: 0px 0px 15px 15px;
+  -moz-border-radius: 0px 0px 15px 15px;
+  -ms-border-radius: 0px 0px 15px 15px;
+  -o-border-radius: 0px 0px 15px 15px;
+  height: 15em;
+  padding-bottom: 0;
+  padding-top: 2em;
+  /* border: rgb(85, 29, 82) solid 10px; */
+}
+.order-summary header h1 {
+  color: #1f2f56;
+  font-weight: 900;
+  /* margin-top: 2em; */
+  padding: 0.5em;
+  text-align: center;
+}
+.order-summary p {
+  color: #1f2f56;
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-top: 0;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-top: 0;
+}
+.order-summary p span {
+  display: block;
+  padding-left: 0.5em;
+}
+div#desktop {
+  display: none;
+  visibility: hidden;
+}
+.plan {
+  background-color: rgba(227, 230, 238, 0.979);
+  border-radius: 1em 1em 1em 1em;
+  display: flex;
+  flex-direction: row;
+  height: 10em;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 0em;
+  -webkit-border-radius: 1em 1em 1em 1em;
+  -moz-border-radius: 1em 1em 1em 1em;
+  -ms-border-radius: 1em 1em 1em 1em;
+  -o-border-radius: 1em 1em 1em 1em;
+}
+.plan .music-img {
+  /* border: blue 2xp solid; */
+  /* height: 100xp; */
+  /* width: 6em; */
+  padding-top: 3em;
+  margin-left: 0.5em;
+}
+.annualplan {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-items: left;
+  margin-left: 0.5em;
+  padding-left: 0.1em;
+  padding-top: 3em;
+  text-align: left;
+  /* background-color: aliceblue; */
+}
+.annualplan p {
+  font-size: 1.4em;
+  margin-left: 0;
+  padding-bottom: 0.2em;
+  padding-left: 0;
+  padding-top: 0.1em;
+}
+.annualplan :nth-child(1) {
+  color: #1f2f56;
+  font-weight: 900;
+  margin: 0;
+}
+.annualplan:nth-child(2) {
+  color: #7280a7;
+}
+.change {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 3em;
+  margin-left: 6em;
+  padding-left: 0;
+}
+.pay-button {
+  background-color: #3829e0;
+  border-radius: 0.5em;
+  box-shadow: 0.11em 0.3em rgba(152, 167, 255, 0.342);
+  color: #e0e8ff;
+  font-size: 1.5em;
+  font-weight: 700;
+  height: 4em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  text-align: center;
+  width: 90%;
+}
+.cancel {
+  height: 8em;
+  margin-top: 1.5em;
+}
+.cancel a {
+  color: #3e52a3;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 8em;
+  margin-top: 3em;
+  padding: 0;
+  text-decoration: none;
+}
+/* Active sratus */
+.cancel a:hover {
+  color: black;
+}
+.pay-button:hover {
+  background-color: #3e52a3;
+}
+.change:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    align-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    display: flex;
+    height: 1280px;
+    justify-content: center;
+    justify-content: center;
+    line-height: 1.5;
+    width: 1440px;
+  }
+  .container {
+    align-self: center;
+    height: 660px;
+    width: 400px;
+  }
+  div#desktop {
+    display: block;
+    height: 100px;
+    visibility: visible;
+  }
+  div#mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  header h1 {
+    color: #1f2f56;
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 0em;
+    margin-top: 0;
+    padding: 0.5em;
+    text-align: center;
+  }
+  .order-summary {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .order-summary div#desktop p {
+    color: #1f2f56;
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 2.5em;
+    padding-top: 0;
+  }
+  .order-summary div#desktop p span {
+    display: block;
+    padding-left: 3.6em;
+    padding-top: 0;
+  }
+  .cancel a {
+    padding: 0;
+    margin-left: 10em;
+    margin-top: 2em;
+  }
+}

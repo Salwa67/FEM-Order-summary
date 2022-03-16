@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8"> 
+<link rel=”icon” type image/png href…..,png>
+<link font>
+<link stylesheet>
+</head>
+<body>
+<Header>
+    Introductory or navigational aids
+    Place nav in header 
+<Nav>links
+No special formatting for headers
+Aids screen readers
+</Nav> 
+</Header>
+<main>
+<h1></h1>
+<h2></h2>
+<h2></h2>
+<p><span></span><strong><em></em></strong></p>
+<figure><img src =”” alt=””>
+<figcaption> a sun set over bulvard </figcaption></figure>
+<img src="" alt="" title="" class="" id="">
+<!-- Image issues :Broken file name
+Resize photo first rename -->
+<a href twitter …..com      aria-label=twitter””> <i class =  fab ….></i>
+<i class=fas fa-angry    fa-xs> 
+<a hre twitter …..com ></a>
+<i class = >
+<a href=””>
+<img src=”” alt=”#Use images as clickable links ”><a/>
+</main>
+<Video src=""> or 
+  <source></source>
+</Video> 
+
+<video style="height /width" Autoplay Loop Controls></video>
+<audio src="" Autoplay controls loop
+Buffered
+Muted
+Volume></audio>
+<!-- Src attribute  mp3 or wav files -->
+<!-- Setting clips for audio and video  -->
+
+Set audio video elements to play clips by adding src attribute
+Using  #t   time 
+.ext#t=5,25  5 to 25 seconds
+.ext#t=,39  from beginning to 39 dec 
+.ext#t=,1:39:45  from beginning till one minute 48 seconds
+.ext=#t=42  start at 42sec
+
+<Footer>
+
+</Footer>
+</body>
+
+Structural element tags
+<Main>
+<Article></Article>
+<Aside></Aside>
+</Main>
+<Menuitem>
+<Section></Section>
+<details></details>
+<Summary ></Summary>
+
+
+Semantic       Inline tags
+Span
+		INLINE tag for text
+Cite
+		Citing source inside the doc 
+Abbr
+		The full name will br read by screen readers
+Time
+		Even something as new yers eve will be read by screen readers as a date 
+Code
+Sup, sub
+
+<!-- Display attribute 
+Block width height
+inline
+Div have no sementac 
+List  -->
+
+
+
+
+Style for visual style
+Access key :shortcut to activate element redirect focus from one position to another such as in form
+Tab index :the order in which elements come to focus with tab key 
+Special entities
+<  &lt.  Semi colon
+>  &gt
+&copy for copy write
+&nspc blank space 
+&amp for  &
+
+
+Web design 
+Clear picture of what we want 
+Semantic tags
+
+
+
+
+
+Contain copy write links to references etc 
+Social media
+Figure tag
+May contain img tag
+Figcaption tag multimedia tags
+
+
+Fig caption for screen readers 
+
+
+
+<Form >
+elements
+Datalist
+Keygen
+output 
+Input types
+Colour
+Date
+Email
+List
+Graphic elements
+Canvas
+Svg
+</Form>
+Image handling
+Image types
+Jpeg jpg gif png
+Svg bmp  bitmap
+Watch for size download resize rename img 
+Every img has http request
+Pixel size it will be opened in original size
+Change actual file size in photo editor
+ change width height attributes
+May include width height to style in element 
+ Hard code at element level 
+Img src width alt 
+Best use percentage to specify size
+It will be a  percentage of how it was supposed to look in container not of the original photo size
+
+
+Icons/logo in web title 
+Only png or icon type image qualify
+Add in head section as a link
+
+
+Alt text
+Text alternative to non text  provides semantics for search engine
+Accurate
+Succinct
+Precise non redundant
+Do not include picture of or graphic of don't include info already written in page
+Leave alt empty if not needed but always include 
+May include but leave empty for not semantic decorative type graphic
+
+
+
+Font Awesome
+Icons
+font awesome CDN  content delivery network
+ each icon can have an extra attribute for icon  size 
+Fas font awesome Instead of source We include a class tag 
+Icons not readable Use them as additions to link 
+
+
+Run on server
+
+Use wave to validate a live web semantics reader 
+
+Wave code validation
+
+Icons
+
+Add aria-label for screen reader semantic 
+Hyperlinks
+< a href  =”” target=””>
+Use a hyper reference reference to location of new content
+And content which is the clickable part text or img
+A stands for anchor link 
+Absolute links full http address
+Relative links  file name folder name
+Internal links to location within same page
+graphic
+
+
+
+Clickable component must have descriptive name not just click here …accesiablity purposes for screen readers 
+
+
+On hovering over the link show the url link it leeds to 
+Absolute links go away from site 
+Relative are within same site 
+Embedded /internal links links Use id to link within same page
+Anchor and target attribute where to display 
+
+
+Target in the anchor tag by default is _self
+target=_blank new tab or window 
+target=_top and _parent  (multiple windows and frames)
+
+
+Multimedia/video/audio
+Html5 multi media designed to avoid ue of external s/wto play music videos 
+Not fully implemented
+
+
+Audio video elements
+Purpose of plugins 
+Accessibility issues
+
+
+Embedded allows for multiple sources
+	
+
+Loop and auto play when added are set to default true 
+Audio video non contextual content must add text descriptions
+Links to plugins
+Enhance user experience not distract
+No loop or auto play
+
+Tables
+Tables should not used for layout
+Must separate content from layout
+Should be used for tabular data not layout
+Design
+Sketch layout first
+Decide on number of rows and columns
+Decide if rows and columns will span multiple cells
+The browser expects the same number of cells in every row  
+
+
+The container
+<table border=1>   /*container
+<tr> row  
+
+Semantic tag caption
+Use caption for semantic purposes table caption 
+
+
+Th /th semantic table headers
+<th>child name<th><th parents names> /* Semantic heading for screen reader plus visually distinct
+
+
+<td rowspan=2>child name <td> columns tables cells  this cell takes 2 rows while the next column the c=xells take one raow allowing us to enter two values for parent 
+Where there is only one parent no additional row is added 
+<td><td> columns
+<td><td> columns
+</tr>
+<TR>
+</TR>
+
+row/column span
+
+Spans - span multiple rows or multiple columns use attributes rowpsan=2 
+Row span 
+Column span 
+
+
+
+Important tags
+Generic tags
+Paragraphs
+divs
+Semantic
+header
+ Footer
+Nav
+Figure
+
+Container block tags
+Main
+Article
+Aside
+Section
+<hr>
+<blockquote   cite> indents quote and lets people know it is a quote
+Cite tells whos is quotes 
+Search engine will understand it is quote and by whom for search purposes
+<details> and <summary> not implemented in firefox. When details is not  supported the summary will also be displayed full content s
+Summary tag the summary is hidden on click you may see the summary. 
+Address contains text as address specific to the page, might be contact info for the page author it is italicised in some but not all browsers
+
+
+
+		
+
+
+Tags that need programming
+Button
+Metre  min=  and max= value=
+Progress
+Bdo bidirectional orientation attribute or ltr left to right 
+Map with area clickable element that needs javascript
+Iframe
+Set source, may also specify width and height
+The ifram can display the webpage inside your site
+Not supported by all 
+
+Use the most specific tag for the content
+Some tags do not work on all browsers 
+Run code through validator for syntax
+Run code in multiple browsers for compatibility 
+
+</html>
